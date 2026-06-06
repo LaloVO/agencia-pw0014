@@ -26,7 +26,7 @@ const Footer = () => {
                   <path d="M 70 12 L 90 22" />
                 </svg>
                 <span className="font-serif tracking-[0.25em] text-[10px] md:text-[11px] font-bold text-[#FAF7F2] leading-none mt-1">
-                  HÉCTOR CONTRERAS
+                  Asesor Demo
                 </span>
                 <span className="font-script text-base md:text-lg text-neutral-400 leading-none -mt-0.5 tracking-normal">
                   Asesor inmobiliario
@@ -49,9 +49,9 @@ const Footer = () => {
                 <Phone className="w-4 h-4 text-neutral-400" />
                 <span>844 869 9388</span>
               </a>
-              <a href="mailto:hector@cbfconnect.com" className="flex items-center gap-3 hover:text-white transition-colors duration-300">
+              <a href="mailto:Asesor Demo@cbfconnect.com" className="flex items-center gap-3 hover:text-white transition-colors duration-300">
                 <Mail className="w-4 h-4 text-neutral-400" />
-                <span>contacto@hectorcontreras.com</span>
+                <span>contacto@Asesor Democontreras.com</span>
               </a>
             </div>
           </div>
@@ -82,7 +82,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-16 pt-8 border-t border-neutral-800 text-[10px] text-neutral-500 uppercase tracking-widest flex flex-col sm:flex-row justify-between gap-4">
-          <span>© 2026 HÉCTOR CONTRERAS • TODOS LOS DERECHOS RESERVADOS</span>
+          <span>© 2026 Asesor Demo • TODOS LOS DERECHOS RESERVADOS</span>
           <span>Aviso de Privacidad & Términos</span>
         </div>
       </div>

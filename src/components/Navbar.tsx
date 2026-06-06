@@ -50,7 +50,7 @@ const Navbar = () => {
               <path d="M 70 12 L 90 22" />
             </svg>
             <span className="font-serif tracking-[0.25em] text-[10px] md:text-[11px] font-bold text-foreground leading-none mt-1">
-              HÉCTOR CONTRERAS
+              Asesor Demo
             </span>
             <span className="font-script text-base md:text-lg text-primary leading-none -mt-0.5 tracking-normal">
               Asesor inmobiliario
@@ -122,7 +122,7 @@ const Navbar = () => {
               <path d="M 70 12 L 90 22" />
             </svg>
             <span className="font-serif tracking-[0.25em] text-[10px] font-bold text-foreground leading-none">
-              HÉCTOR CONTRERAS
+              Asesor Demo
             </span>
             <span className="font-script text-base text-neutral-500 leading-none mt-1">
               Asesor inmobiliario

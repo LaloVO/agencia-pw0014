@@ -65,8 +65,8 @@ export async function fetchSiteUser(): Promise<{ user: CBFUser; site: CBFSite }>
   return json.data;
 }
 
-export const HECTOR_EXCLUSIVE_PROPERTY: CBFProperty = {
-  id: "hector-exclusive-1",
+export const DEMO_EXCLUSIVE_PROPERTY: CBFProperty = {
+  id: "Asesor Demo-exclusive-1",
   nombre: "Residencia Las Alamedas",
   descripcion: "Exclusiva residencia contemporánea con excelentes acabados de mármol y piedra natural, amplios ventanales que brindan una iluminación inigualable, cochera techada para dos autos y un balcón frontal con vistas arboladas. Ubicada en zona de alta plusvalía con seguridad privada las 24 horas en Saltillo, Coah.",
   tipo: "casa",
@@ -81,7 +81,7 @@ export const HECTOR_EXCLUSIVE_PROPERTY: CBFProperty = {
   latitud: 25.4383,
   longitud: -100.9737,
   imagenes_propiedades: [
-    { image_url: "/hector-prop.png" }
+    { image_url: "/Asesor Demo-prop.png" }
   ]
 };
 
@@ -103,26 +103,26 @@ export async function fetchProperties(params?: {
     if (!res.ok) throw new Error("Error al cargar propiedades");
     const json = await res.json();
     
-    // Prepend Hector's custom premium property to the list
+    // Prepend Asesor Demo's custom premium property to the list
     const originalData = json.data || [];
-    const filteredOriginal = originalData.filter((p: CBFProperty) => p.id !== "hector-exclusive-1");
+    const filteredOriginal = originalData.filter((p: CBFProperty) => p.id !== "Asesor Demo-exclusive-1");
     
     return {
-      data: [HECTOR_EXCLUSIVE_PROPERTY, ...filteredOriginal],
+      data: [DEMO_EXCLUSIVE_PROPERTY, ...filteredOriginal],
       pagination: json.pagination || { limit: 10, offset: 0, total: 1 }
     };
   } catch (err) {
     // If offline or API fails, return our premium property as fallback
     return {
-      data: [HECTOR_EXCLUSIVE_PROPERTY],
+      data: [DEMO_EXCLUSIVE_PROPERTY],
       pagination: { limit: 10, offset: 0, total: 1 }
     };
   }
 }
 
 export async function fetchProperty(id: string): Promise<CBFProperty> {
-  if (id === "hector-exclusive-1") {
-    return HECTOR_EXCLUSIVE_PROPERTY;
+  if (id === "Asesor Demo-exclusive-1") {
+    return DEMO_EXCLUSIVE_PROPERTY;
   }
   
   const res = await fetch(`${BASE_URL}/properties/${id}`, { headers: headers() });

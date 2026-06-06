@@ -48,7 +48,7 @@ const HeroSection = () => {
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
             }`}
           >
-            HÉCTOR CONTRERAS • ASESOR INMOBILIARIO
+            Asesor Demo • ASESOR INMOBILIARIO
           </span>
 
           <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl text-white leading-[1.05] tracking-tight drop-shadow-md">

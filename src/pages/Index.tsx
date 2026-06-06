@@ -12,10 +12,10 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>Héctor Contreras | Asesor Inmobiliario - Propiedades de Lujo en México</title>
+        <title>Asesor Demo | Asesor Inmobiliario - Propiedades de Lujo en México</title>
         <meta
           name="description"
-          content="Descubre propiedades de lujo y preventas residenciales exclusivas en México con la curaduría y asesoría inmobiliaria de alta gama de Héctor Contreras."
+          content="Descubre propiedades de lujo y preventas residenciales exclusivas en México con la curaduría y asesoría inmobiliaria de alta gama de Asesor Demo."
         />
       </Helmet>
 
