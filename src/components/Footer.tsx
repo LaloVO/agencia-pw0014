@@ -45,9 +45,9 @@ const Footer = () => {
               Contacto
             </h4>
             <div className="space-y-3 font-sans text-xs md:text-sm font-light text-neutral-300">
-              <a href="tel:8448699388" className="flex items-center gap-3 hover:text-white transition-colors duration-300">
+              <a href="tel:5210000000000" className="flex items-center gap-3 hover:text-white transition-colors duration-300">
                 <Phone className="w-4 h-4 text-neutral-400" />
-                <span>844 869 9388</span>
+                <span>521 000 000 0000</span>
               </a>
               <a href="mailto:Asesor Demo@cbfconnect.com" className="flex items-center gap-3 hover:text-white transition-colors duration-300">
                 <Mail className="w-4 h-4 text-neutral-400" />

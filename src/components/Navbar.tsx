@@ -74,11 +74,11 @@ const Navbar = () => {
         {/* Action Button: Teléfono Premium */}
         <div className="hidden md:flex items-center">
           <a
-            href="tel:8448699388"
+            href="tel:5210000000000"
             className="flex items-center gap-2 px-5 py-2 rounded-full border border-primary/30 text-foreground hover:bg-primary hover:text-white transition-all duration-300 shadow-sm text-xs font-sans tracking-wider"
           >
             <Phone className="w-3 h-3 text-primary group-hover:text-white" />
-            <span className="font-bold">844 869 9388</span>
+            <span className="font-bold">521 000 000 0000</span>
           </a>
         </div>
 
@@ -143,12 +143,12 @@ const Navbar = () => {
           </div>
 
           <a
-            href="tel:8448699388"
+            href="tel:5210000000000"
             onClick={() => setIsMobileMenuOpen(false)}
             className="flex items-center gap-2 px-6 py-3 rounded-full border border-black bg-black text-white hover:bg-neutral-800 transition-all duration-300 text-sm font-sans font-bold tracking-wider mt-4"
           >
             <Phone className="w-4 h-4" />
-            <span>844 869 9388</span>
+            <span>521 000 000 0000</span>
           </a>
         </div>
       )}
